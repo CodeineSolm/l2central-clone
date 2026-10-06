@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sub-header.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+
+    <title>База знаний Lineage II</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <a href="#" class="default-link">ВЕРСИИ ИГРЫ</a>
+        <a href="#" class="special-link">ПАТЧНОУТЫ</a>
+      </div>
+      <div class="right-section">
+        <a href="#" class="default-link">ВОЙТИ</a>
+        <button class="play-button">Играть</button>
+        <button class="beta-button">Beta</button>
+      </div>
+    </header>
+
+    <div class="sub-header">
+      <img class="logo" src="images/logo.webp" />
+    </div>
+
+    <main class="main-container">
+      <nav class="navigation-container">
+        <div class="nav-item">
+          <a class="default-link nav-btn">ГЛАВНАЯ</a>
+        </div>
+        <div class="nav-item">
+          <a class="default-link nav-btn">ПРЕДМЕТЫ</a>
+          <div class="dropdown">
+            <a class="default-link dropdown-link">Оружие</a>
+            <a class="default-link dropdown-link">Доспехи</a>
+            <a class="default-link dropdown-link">Аксессуары</a>
+            <a class="default-link dropdown-link">Прочее</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a class="default-link nav-btn">УМЕНИЯ</a>
+          <div class="dropdown">
+            <a class="default-link dropdown-link">Человек</a>
+            <a class="default-link dropdown-link">Эльфы</a>
+            <a class="default-link dropdown-link">Темные Эльфы</a>
+            <a class="default-link dropdown-link">Орки</a>
+            <a class="default-link dropdown-link">Гномы</a>
+            <a class="default-link dropdown-link">Камаэль</a>
+            <a class="default-link dropdown-link">Артеи</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a class="default-link nav-btn">МОНСТРЫ И NPC</a>
+          <div class="dropdown">
+            <a class="default-link dropdown-link">Монстры</a>
+            <a class="default-link dropdown-link">Рейдовые Боссы</a>
+            <a class="default-link dropdown-link">NPC</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a class="default-link nav-btn">ЛОКАЦИИ</a>
+          <div class="dropdown">
+            <a class="default-link dropdown-link">Зоны охоты</a>
+            <a class="default-link dropdown-link">Сессионные зоны</a>
+            <a class="default-link dropdown-link">Временные зоны</a>
+            <a class="default-link dropdown-link">Мероприятия</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a class="default-link nav-btn">МЕХАНИКИ</a>
+          <div class="dropdown">
+            <a class="default-link dropdown-link">Карты Таро</a>
+            <a class="default-link dropdown-link">Коллекция</a>
+            <a class="default-link dropdown-link">Миссии клана</a>
+            <a class="default-link dropdown-link">Создание</a>
+            <a class="default-link dropdown-link">Таблица опыта</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a class="default-link nav-btn">СТАТЬИ</a>
+        </div>
+        <div class="nav-item">
+          <a class="default-link nav-btn">НОВОСТИ</a>
+          <div class="dropdown">
+            <a class="default-link dropdown-link">Активности</a>
+            <a class="default-link dropdown-link">Подарки</a>
+            <a class="default-link dropdown-link">Объявления</a>
+            <a class="default-link dropdown-link">Вести из Кореи</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a class="default-link nav-btn">МАГАЗИН</a>
+        </div>
+        <div class="nav-item">
+          <a class="default-link nav-btn">ГАЙДЫ</a>
+          <div class="dropdown">
+            <a class="default-link dropdown-link">Для новичков</a>
+            <a class="default-link dropdown-link">Классы</a>
+          </div>
+        </div>
+      </nav>
+      <div class="info-container">
+        <div class="info">
+          <div class="info-title">Официальная База Знаний Lineage 2</div>
+          <div class="info-description">
+            Та самая Lineage 2, которая развивается в России уже более 17 лет.
+            Только здесь можно создать двойной класс и переключиться на него в
+            любой момент. Надоело быть лучником? Стань призывателем!
+          </div>
+          <div class="search">
+            <input class="search-input" placeholder="Не менее трех букв" />
+            <button class="search-button">
+              <img
+                class="search-button-icon"
+                src="images/Search_Icon.svg.webp"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="fresh-news">
+          <div class="fresh-news-title">Свежие новости</div>
+          <div class="news"></div>
+        </div>
+      </div>
+
+      <!-- EVENTS -->
+      <div class="events-container">
+        <div class="container-title">События</div>
+        <div class="container-content"></div>
+      </div>
+
+      <!-- ARTICLES -->
+      <div class="articles-container">
+        <div class="container-title">Полезные статьи</div>
+        <div class="container-content"></div>
+      </div>
+
+      <!-- GUIDES -->
+      <div class="guides-container">
+        <div class="container-title">Гайды по игре</div>
+        <div class="container-content"></div>
+      </div>
+
+      <!-- NEWS -->
+      <div class="news-container">
+        <div class="container-title">Вести из Кореи</div>
+        <div class="container-content"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-links">
+        <a class="default-link" href="#">Правовая информация</a>
+        <a class="default-link" href="#">Политика файлов Cookie</a>
+      </div>
+      <div class="footer-text">
+        Все материалы, товарные знаки и их обозначения, размещенные на сайте,
+        принадлежат их правообладателям. <br />
+        Lineage® зарегистрированный товарный знак NC Corporation. <br />
+        © NC Corporation, 2003 <br />
+        ООО «Мир Хобби» не несет ответственности за содержание размещенных
+        материалов. <br />
+        ООО «Мир Хобби» - исключительный лицензиат Lineage® II на территории РФ,
+        СНГ, Грузии <br />
+        © ООО «Мир Хобби», 2026
+      </div>
+      <div class="footer-img">
+        <img src="images/footer1.png" />
+        <img src="images/footer2.png" />
+        <img src="images/footer3.png" />
+      </div>
+    </footer>
+
+    <script type="module" src="scripts/general.js"></script>
+  </body>
+</html>

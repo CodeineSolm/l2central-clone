@@ -1,0 +1,87 @@
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: rgb(32, 22, 68);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-section {
+  margin-left: 230px;
+  display: flex;
+  
+}
+
+.right-section {
+  margin-right: 230px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1300px) {
+  .left-section {
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+
+  .right-section {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+}
+
+
+.default-link, .special-link {
+  text-decoration: none;
+  transition: color 0.15s, opacity 0.15s;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.default-link {
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.default-link:hover {
+  color: rgb(245, 177, 5);
+}
+
+.default-link:active,
+.special-link:active {
+  opacity: 0.8;
+}
+
+.special-link {
+  color: rgb(245, 177, 5);
+}
+
+.special-link:hover {
+  color: rgb(255, 197, 4);
+}
+
+.play-button,
+.beta-button {
+  background-color: rgb(245, 177, 5);
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.beta-button {
+  padding: 0px 20px;
+}
+
+.play-button {
+  padding: 0px 100px;
+  margin-right: 20px;
+}
